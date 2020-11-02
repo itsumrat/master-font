@@ -11,8 +11,8 @@ function HomePage() {
         <div style={{marginBottom: 30, display: 'flex', flexDirection: 'column'}}>
             <div className="top-filtering">
                 <div className="textBackgroundColor">
-                    <button className="btn btn-bg-black">א</button>
-                    <button className="btn btn-bg-white">א</button>
+                    <button className="btn cbtn-bg-black">א</button>
+                    <button className="btn cbtn-bg-white">א</button>
                 </div>
                 <div className="range-slider">
                     <span style={{fontSize: "1.5rem"}}>א  </span> <span className="float-right" style={{marginTop: "0.6rem"}}>א  </span>

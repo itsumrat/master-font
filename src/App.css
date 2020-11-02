@@ -138,24 +138,24 @@ table {
 /*---------- Top Filtering ----------*/
 .top-filtering {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: flex-end;
+  /*width: 70%;*/
   float: right;
-  margin-top: 3rem;
+  margin: 3rem;
 }
 .textBackgroundColor {
   float: right;
 }
-.btn-bg-black {
+.cbtn-bg-black {
   font-size: 2rem;
   line-height: 1;
   color: #fff;
   background-color: #bcbdc0;
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
-.btn-bg-white {
+.cbtn-bg-white {
   font-size: 2rem;
   line-height: 1;
   color: #bcbdc0;
@@ -163,11 +163,12 @@ table {
   border: 1px solid #bcbdc0;
   width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 50% !important;
   margin-left: 2rem;
 }
 .range-slider {
-  width: 100%;
+  width: 40%;
+  margin: 0 25px;
 }
 .tange-slider span {
   font-family: Semantica-Light;
