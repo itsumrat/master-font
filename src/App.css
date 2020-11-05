@@ -150,7 +150,7 @@ table {
   font-size: 2rem;
   line-height: 1;
   color: #fff;
-  background-color: #bcbdc0;
+  background-color: #bcbdc0 !important;
   width: 45px;
   height: 45px;
   border-radius: 50% !important;
@@ -160,7 +160,7 @@ table {
   line-height: 1;
   color: #bcbdc0;
   background-color: #fff;
-  border: 1px solid #bcbdc0;
+  border: 1px solid #bcbdc0 !important;
   width: 45px;
   height: 45px;
   border-radius: 50% !important;
@@ -263,18 +263,25 @@ table {
 
 .content{
   display: flex;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-.slider-wrapper{
-  justify-content: flex-end;
-  background-color: red;
-  transition: width 1s;
-  transition-timing-function: ease-in-out;
-}
+
 .home-contents-wrapper{
-  flex: 1 1 auto;
-  /*background-color: #0f6674;*/
+  position: absolute;
+  width: 80%;
+  /*background:orange;*/
+  overflow: hidden;
+  transition: 0.5s;
+}
+.slider-wrapper{
+  position: absolute;
+  left: 80%;
+  right: 0;
+  /*background:green;*/
+  overflow: hidden;
+  transition: .5s;
+  /*border-left: 1px solid #bcbdc0;*/
 }
 .home-contents {
   display: flex;
@@ -285,4 +292,35 @@ table {
 .home-contents h1 {
   text-align: right;
   margin-right: 5rem;
+}
+
+.sideBar-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0 15px;
+  text-align: right;
+}
+
+.properties-wrapper{
+  border-bottom: 1px solid #bcbdc0;
+}
+.categories-wrapper{
+  /*display: flex;*/
+}
+.category {
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.whatWrapper {
+  display: inline-flex;
+}
+.what {
+  width: 50%;
 }

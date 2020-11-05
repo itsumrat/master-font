@@ -1,11 +1,12 @@
 import React, {useState} from "react";
+import Sidebar from "../../components/Sidebar";
 
 function HomePage() {
+    const element = document.getElementById(window.location.hash);
     const [rangeSlider, setRangeSlider] = useState(0);
-    const [width, setWidth] = useState('0%');
+    const [toggle, setToggle] = useState(true);
     const toggleWidth = () => {
-        if (width === '0%') setWidth('40%')
-        else if (width === '40%') setWidth('0%')
+        setToggle(prevState => !prevState)
     }
     return (
         <div style={{marginBottom: 30, display: 'flex', flexDirection: 'column'}}>
@@ -27,7 +28,7 @@ function HomePage() {
                 </div>
             </div>
             <div className="content">
-                <div className="home-contents-wrapper">
+                <div style={{width: toggle ? '80%': '100%' }} className="home-contents-wrapper">
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
                         <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
@@ -57,8 +58,8 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-                <div style={{width: width}} className="slider-wrapper">
-                    <h1>Slider</h1>
+                <div style={{left: toggle ? '80%': '100%'}} className="slider-wrapper">
+                    <Sidebar/>
                 </div>
             </div>
         </div>

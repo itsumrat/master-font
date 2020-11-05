@@ -16,7 +16,7 @@ const HeaderComponent = () => {
                     <div className="MenuItem"><a href="#">מבצעים</a></div>
                     <div className="MenuItem">
                         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-                            <DropdownToggle  caret nav >
+                            <DropdownToggle  caret nav  >
                                 ל הפונטים
                             </DropdownToggle>
                             <DropdownMenu>
