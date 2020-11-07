@@ -4,7 +4,7 @@ import Sidebar from "../../components/Sidebar";
 function HomePage() {
     const element = document.getElementById(window.location.hash);
     const [rangeSlider, setRangeSlider] = useState(0);
-    const [toggle, setToggle] = useState(true);
+    const [toggle, setToggle] = useState(false);
     const toggleWidth = () => {
         setToggle(prevState => !prevState)
     }
