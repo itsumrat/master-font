@@ -249,6 +249,7 @@ table {
   border: 0;
   border-bottom: 1px solid #bcbdc0;
   border-radius: 0;
+  margin-top: -.9rem
 }
 .search input[type="search"]:-moz-placeholder {
   text-align: right;
@@ -261,7 +262,8 @@ table {
 }
 .filtering-open{
   position: absolute;
-  right: 50px;
+  right: 20px;
+  z-index: 2;
 }
 .filtering-open a {
   color: #bcbdc0;
@@ -287,7 +289,7 @@ table {
   transition: 0.5s;
 }
 .slider-wrapper{
-  margin-top: 110px;
+  padding-top: 110px;
   scroll-behavior: smooth;
   position: absolute;
   left: 80%;
@@ -316,6 +318,7 @@ table {
   width: 100%;
   padding: 0 15px;
   text-align: right;
+  border-left: 2px solid rgb(228, 228, 228);
 }
 
 .featured-wrapper{
