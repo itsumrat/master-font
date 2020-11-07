@@ -292,6 +292,7 @@ table {
   flex-direction: column;
   width: 80%;
   float: right;
+  text-align: right;
 }
 .home-contents h1 {
   text-align: right;
@@ -364,4 +365,10 @@ table {
 }
 .what {
   width: 50%;
+}
+
+.iconStyle{
+  color: black;
+  vertical-align: middle;
+  font-weight: 900;
 }

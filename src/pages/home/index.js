@@ -34,37 +34,77 @@ function HomePage() {
                 <div style={{width: toggle ? '80%': '100%' }} className="home-contents-wrapper">
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
-                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
-                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                            <span style={{marginRight: 20}} >
+                                Download
+                                <a href="#">
+                                    <span className="material-icons iconStyle ">
+                                        south
+                                    </span>
+                                </a>
+                            </span>
+                            <span style={{marginRight: 20}}>Weight: 9  </span>
+                            <span>Font-family: Serif  </span>
                         </div>
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
-                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
-                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                            <span style={{marginRight: 20}} >
+                                Download
+                                <a href="#">
+                                    <span className="material-icons iconStyle ">
+                                        south
+                                    </span>
+                                </a>
+                            </span>
+                            <span style={{marginRight: 20}}>Weight: 9  </span>
+                            <span>Font-family: Serif  </span>
                         </div>
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
-                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
-                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                            <span style={{marginRight: 20}} >
+                                Download
+                                <a href="#">
+                                    <span className="material-icons iconStyle ">
+                                        south
+                                    </span>
+                                </a>
+                            </span>
+                            <span style={{marginRight: 20}}>Weight: 9  </span>
+                            <span>Font-family: Serif  </span>
                         </div>
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
-                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
-                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                            <span style={{marginRight: 20}} >
+                                Download
+                                <a href="#">
+                                    <span className="material-icons iconStyle ">
+                                        south
+                                    </span>
+                                </a>
+                            </span>
+                            <span style={{marginRight: 20}}>Weight: 9  </span>
+                            <span>Font-family: Serif  </span>
                         </div>
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
-                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
-                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                            <span style={{marginRight: 20}} >
+                                Download
+                                <a href="#">
+                                    <span className="material-icons iconStyle ">
+                                        south
+                                    </span>
+                                </a>
+                            </span>
+                            <span style={{marginRight: 20}}>Weight: 9  </span>
+                            <span>Font-family: Serif  </span>
                         </div>
                     </div>
                 </div>
