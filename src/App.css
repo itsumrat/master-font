@@ -121,7 +121,9 @@ table {
 }
 .MenuItem a {
   color: #fff;
+  padding: .2rem 0;
 }
+
 .MenuItem .nav-item .nav-link {
   padding: 0;
 }
@@ -142,7 +144,7 @@ table {
 .top-filtering {
   display: flex;
   justify-content: flex-end;
-  /*width: 70%;*/
+  width: 100%;
   float: right;
   margin: 3rem;
 }
@@ -257,8 +259,14 @@ table {
 .search input[type="search"]::-webkit-input-placeholder {
   text-align: right;
 }
+.filtering-open{
+  position: absolute;
+  right: 50px;
+}
 .filtering-open a {
   color: #bcbdc0;
+  float: right;
+  margin: 50px;
 }
 .filtering-open a .material-icons {
   font-size: 2.5rem;
@@ -266,18 +274,20 @@ table {
 
 .content{
   display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
 
 .home-contents-wrapper{
-  position: absolute;
+  /*position: absolute;*/
   width: 80%;
   /*background:orange;*/
   overflow: hidden;
   transition: 0.5s;
 }
 .slider-wrapper{
+  margin-top: 110px;
   scroll-behavior: smooth;
   position: absolute;
   left: 80%;
