@@ -24,7 +24,10 @@ function HomePage() {
                     <input type="search" className="form-control" placeholder="placeholder" />
                 </div>
                 <div className="filtering-open">
-                    <a href="#"><span onClick={()=>toggleWidth()} className="material-icons">search</span></a>
+                    <a href="#"><span onClick={(e)=>{
+                        e.preventDefault();
+                        toggleWidth();
+                    }} className="material-icons">search</span></a>
                 </div>
             </div>
             <div className="content">
@@ -57,8 +60,18 @@ function HomePage() {
                             <span>מאפיינים  </span> <span>מאפיינים  </span>
                         </div>
                     </div>
+                    <div className="home-contents">
+                        <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
+                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem"}}>
+                            <span > נקה סינון  <a href="#"><span className="material-icons">south</span></a> </span>
+                            <span>מאפיינים  </span> <span>מאפיינים  </span>
+                        </div>
+                    </div>
                 </div>
-                <div style={{left: toggle ? '80%': '100%'}} className="slider-wrapper">
+                <div style={{
+                    left: toggle ? '80%': '100%',
+                    visibility: toggle? 'visible' : 'hidden'
+                }} className="slider-wrapper">
                     <Sidebar/>
                 </div>
             </div>
