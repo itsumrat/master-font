@@ -16,7 +16,7 @@ const HeaderComponent = () => {
         <div id="MainShope">
             <div className="TopHeader">
                 <div className="Mlogo"><img src={logo}/></div>
-                <span onClick={onMenuToggle} className="material-icons toggler">{isOpen ? 'close' : 'menu'}</span>
+                <span onClick={onMenuToggle} className="material-icons text-primary toggler">{isOpen ? 'close' : 'menu'}</span>
                 <div id="headerMenu" className="HeadrMenu">
                     <div className="MenuItem">כל הפונטים</div>
                     <div className="MenuItem"><a href="#">מבצעים</a></div>

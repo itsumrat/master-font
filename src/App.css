@@ -186,13 +186,13 @@ table {
   padding: 0.2rem;
 }
 .dropdown-menu.show {
-  margin-top: 1.75rem;
+  margin-top: 1.35rem;
   border-radius: 0;
 }
 /*-------- Extra small devices (portrait phones, less than 576px) --------*/
 @media (max-width: 575.98px) {
   .HeadrMenu {
-    width: 100%;
+    /*width: 100%;*/
   }
   .MenuItem {
     color: #000;
