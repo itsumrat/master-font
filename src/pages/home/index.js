@@ -28,7 +28,7 @@ function HomePage() {
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                        <div>
                             <span style={{marginRight: 20}} >
                                 Download
                                 <a href="#">
@@ -43,7 +43,7 @@ function HomePage() {
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                        <div>
                             <span style={{marginRight: 20}} >
                                 Download
                                 <a href="#">
@@ -58,7 +58,7 @@ function HomePage() {
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                        <div>
                             <span style={{marginRight: 20}} >
                                 Download
                                 <a href="#">
@@ -73,7 +73,7 @@ function HomePage() {
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                        <div>
                             <span style={{marginRight: 20}} >
                                 Download
                                 <a href="#">
@@ -88,7 +88,7 @@ function HomePage() {
                     </div>
                     <div className="home-contents">
                         <h1>הלכתי לחפש סנאי ביער ביאליק </h1>
-                        <div style={{backgroundColor: "#e4e4e4",marginRight: "5rem", padding: "3px 10px"}}>
+                        <div>
                             <span style={{marginRight: 20}} >
                                 Download
                                 <a href="#">
