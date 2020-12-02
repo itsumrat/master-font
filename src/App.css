@@ -75,11 +75,12 @@ table {
 }
 .toggler{
   display: none;
-  position: absolute;
+  /*position: absolute;*/
   padding: 5px;
   color: white;
   top: 20px;
   left: 15px;
+  text-align: center;
   font-size: 30px !important;
 }
 @media only screen and (max-width: 600px) {
@@ -109,7 +110,7 @@ table {
     right: -66%;
     top: 171px;
     background-color: #2C292A;
-    z-index: 2;
+    z-index: 9;
     display: flex;
     flex-direction: column;
     transition: 1s ease-in-out;
@@ -120,6 +121,10 @@ table {
   }
   .MenuItem {
     height: unset !important;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 185px;
   }
 
 }
@@ -491,10 +496,7 @@ table {
   vertical-align: middle;
   font-weight: 900;
 }
-.carousel-item img {
-  width: 100%;
-  height: 185px;
-}
+
 
 /*-------- Extra small devices (portrait phones, less than 576px) --------*/
 @media (max-width: 575.98px) {
@@ -520,5 +522,16 @@ table {
     height: 50px;
     font-size: 50px;
     line-height: 50px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 185px;
+  }
+  .MenuItem {
+    color: white;
+  }
+  .MenuItem a{
+    color: #fff;
+    padding: .2rem 0;
   }
 }
