@@ -6,7 +6,7 @@ import SliderComponent from "./components/header/SliderComponent";
 
 function App() {
   return (
-      <div>
+      <div style={{overflowX: 'hidden'}}>
           <HeaderComponent/>
           <SliderComponent/>
           <HomePage/>
