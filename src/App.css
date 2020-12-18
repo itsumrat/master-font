@@ -362,7 +362,8 @@ table {
     float: none;
   }
   .filtering-open {
-    right: -40px;
+    /*right: -40px;*/
+    right: 0px;
     margin-top: 1rem;
   }
   .filtering-open a {
