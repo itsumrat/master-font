@@ -536,3 +536,11 @@ table {
     padding: .2rem 0;
   }
 }
+
+/*----- Small devices (landscape phones, less than 768px) -----*/
+@media (max-width: 767.98px) {
+  .carousel-item img {
+    height: 425px;
+    width: 100%;
+  }
+}
